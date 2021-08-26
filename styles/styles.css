@@ -1,13 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Monoton&family=Open+Sans&display=swap");
+
 body {
   display: grid;
   justify-content: center;
   align-items: center;
+  background: rgb(63, 94, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+  font-family: "Open Sans", sans-serif;
+}
+
+.site-header {
+  text-align: center;
+  font-family: "Monoton", cursive;
+  font-size: 12vh;
+  color: white;
+}
+
+.cage-img {
+  width: 300px;
+  border-radius: 50%;
+  justify-self: center;
 }
 
 .question {
   display: grid;
+  justify-content: center;
 }
 
 button {
+  justify-self: center;
+  font-weight: bolder;
+  font-size: 15px;
+  color: #3f5efb;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
   width: 6vw;
+  height: 2vw;
+}
+
+.answer {
+  text-align: center;
+  color: white;
+  font-size: 5vh;
 }
