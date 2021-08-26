@@ -1,4 +1,3 @@
-const textArea = document.querySelector('.question-area');
 const submitButton = document.querySelector('.question-button');
 let answer = document.querySelector('.answer');
 
