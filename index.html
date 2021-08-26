@@ -1,33 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Magic Cage Ball</title>
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles/reset.css">
-    <link rel="stylesheet" href="./styles/styles.css">
-    <title>My App</title>
-</head>
+  <body>
+    <h1 class="site-header">Ask Me a Question.</h1>
 
-<body>
-    <header>
-        <h1>My App</h1>
-        <img src="assets/big-logo.png" />
-    </header>
-    
-    <main>
+    <section class="question">
+      <label for="w3review">
+        <textarea class="question-area" name="question-area" rows="4" cols="50">
+        </textarea>
+      </label>
+      <button class="question-button">Submit</button>
+    </section>
 
-        Make a Web App!
-        
-    </main>
-
-    <footer>
-        &copy; 2021 Alchemy Code Lab
-    </footer>
-
-    <script type="module" src="./app.js"></script>
-</body>
-
+    <span class="answer">Answer</span>
+    <script type="module" src="app.js"></script>
+  </body>
 </html>
